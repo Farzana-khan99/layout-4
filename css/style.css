@@ -1,0 +1,121 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* logo start */
+.logo-sec {
+  padding: 20px;
+  background: #80808099;
+  margin-bottom: 10px;
+}
+
+.logo-sec li span {
+  text-transform: capitalize;
+  font-size: 30px;
+  font-weight: 600;
+}
+/* logo  end */
+
+/* nav start */
+ li{
+  list-style: none;
+ }
+
+.logo-sec nav  ul{
+display: flex;
+padding: 0 10px;
+justify-content: space-between;
+
+ 
+}
+
+nav h2 {
+  text-align: center;
+  font-size: 22px;
+  text-transform: uppercase;
+}
+/* nav  end */
+/* Banner section start */
+.Banner-sec {
+  background: #80808099;
+  padding: 23px 0;
+  margin: 10px 0;
+}
+
+.Banner-sec h2 {
+  text-align: center;
+  font-size: 24px;
+  text-transform: uppercase;
+}
+
+/* Banner section start */
+
+/* Sub-main start */
+.sub-sec {
+    margin: 15px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.box1 h3 ,.box2 h3 , .box3 h3{
+  font-size: 30px;
+  text-transform: capitalize;
+}
+.box1 {
+  align-items: center;
+  background: #80808099;
+  width: 33%;
+  display: flex;
+  height: 600px;
+  justify-content: center;
+}
+.box2 {
+  align-items: center;
+  background: #80808099;
+  width: 33%;
+  display: flex;
+  height: 600px;
+  justify-content: center;
+}
+.box3 {
+  align-items: center;
+  background: #80808099;
+  width: 31%;
+  display: flex;
+  height: 600px;
+  justify-content: center;
+}
+
+/* Sub-main  end  */
+.small-box {
+  margin: 20px 0;
+}
+.main-small-boxes {
+  display: flex;
+  gap: 20px;
+  margin: 20px 0;
+  justify-content: space-between;
+ 
+}
+.sm-box1 {
+ width: 20%;
+ height: 200px;
+  background: #80808099;
+}
+/* Inner box start */
+
+/* Inner box end */
+/* footer  start */
+footer {
+  padding: 20px;
+  background: #80808099;
+  text-align: center;
+}
+footer h2 {
+  text-align: center;
+  font-size: 25px;
+  text-transform: uppercase;
+}
+/* footer end */
